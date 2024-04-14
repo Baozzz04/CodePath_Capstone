@@ -2,6 +2,7 @@
 **Recipe Organizer**
 
 **Overview**
+
 ***Description***
 User can see some good default recipes, and also add new recipes for dishes that they want to replicate in the future.
 
@@ -14,6 +15,7 @@ User can see some good default recipes, and also add new recipes for dishes that
 - Scope: The app is relatively easy to build with the existing tools. The product needs to have some core features such as viewing recipes/adding new recipes/etc.
 
 **Product Spec**
+
 ***1. User Stories (Required and Optional)***
 
 Required Must-have Stories
@@ -36,29 +38,38 @@ Optional Nice-to-have Stories
 - User can access this to choose different categories based on their interests.
 
 ***3. Navigation***
-Tab Navigation (Tab to Screen)
+**Tab Navigation (Tab to Screen)**
 
 Home Screen
+
 New Screen
+
 Categories Screen
+
 Home Categories Screen
+
 Individual Recipe Screen
 
-Flow Navigation (Screen to Screen)
+**Flow Navigation (Screen to Screen)**
 
 Home Screen 
+
     => Individual Recipe Screen
     
 Individual Recipe Screen
+
     => Home Screen
 
 Categories Screen 
+
     => Home Categories Screen
     
 Home Categories Screen
+
     => Individual Recipe Screen
     
 New Screen 
+
     => None
 
 **Wireframes**
