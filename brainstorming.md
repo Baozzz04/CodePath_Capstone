@@ -23,5 +23,5 @@
 - Habit: People would open this app if they want to go on a trip and organize their stuff. But the frequency is low as not many people are going on trips in a year.
 - Scope: The app is medium to hard to build with the existing tools. The product needs to have core features such as viewing ternaries, looking for new activities, etc.
 
-Step 2.3: Final decision
+**Step 2.3**: Final decision
 I will build the recipe organizer app.
