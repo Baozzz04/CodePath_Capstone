@@ -77,4 +77,4 @@ New Screen
 
 Image of my wireframe:
 
-[Title](../../../../Downloads/IMG_9110.HEIC)
+![alt text](https://github.com/Baozzz04/CodePath_Capstone/blob/main/IMG_9110.heic?raw=true)
