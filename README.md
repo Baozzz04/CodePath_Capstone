@@ -74,17 +74,7 @@ New Screen
     => None
 
 **Wireframes**
-[Add picture of your hand sketched wireframes in this section] 
 
-[BONUS] Digital Wireframes & Mockups
-[BONUS] Interactive Prototype
-Schema
-[This section will be completed in Unit 9]
+Image of my wireframe:
 
-Models
-[Add table of models]
-
-Networking
-[Add list of network requests by screen ]
-[Create basic snippets for each Parse network request]
-[OPTIONAL: List endpoints if using existing API such as Yelp]
+[Title](../../../../Downloads/IMG_9110.HEIC)
