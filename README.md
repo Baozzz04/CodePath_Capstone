@@ -78,3 +78,28 @@ New Screen
 Image of my wireframe:
 
 ![Image](https://github.com/Baozzz04/CodePath_Capstone/blob/main/IMG_9110.HEIC?raw=true)
+
+**Main features**
+- User can view the app's default recipe
+- User can add new recipes
+- User can select different types of categories: "Breakfast, Lunch, Dinner, Snacks, etc".
+
+**Sprint schedule**
+
+Sprint 1: Set up the project and build the home page
+
+[x] Set up the new Swift project
+[x] Adding new screens
+[x] Adding default recipes and finish the home page
+
+Sprint 2: Design and implement the new recipe page
+
+Sprint 3: Add the category page and linking it to the detail view
+
+**New updates**
+
+Sprint 1: 
+
+**Video walkthrough**
+
+Sprint 1:
