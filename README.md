@@ -88,9 +88,11 @@ Image of my wireframe:
 
 Sprint 1: Set up the project and build the home page
 
-[x] Set up the new Swift project
-[x] Adding new screens
-[x] Adding default recipes and finish the home page
+- [x] Set up the new Swift project
+
+- [x] Adding new screens
+
+- [x] Adding default recipes and finish the home page
 
 Sprint 2: Design and implement the new recipe page
 
