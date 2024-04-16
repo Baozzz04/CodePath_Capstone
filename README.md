@@ -92,16 +92,14 @@ Sprint 1: Set up the project and build the home page
 
 - [x] Adding new screens
 
-- [x] Adding default recipes and finish the home page
-
 Sprint 2: Design and implement the new recipe page
 
 Sprint 3: Add the category page and linking it to the detail view
 
 **New updates**
 
-Sprint 1: 
+Sprint 1: For the first sprint, I added new view controllers and coding files for the next sprint. Overall, the schematic of the view controller is the same as the drawing on github with a slight modification.
 
 **Video walkthrough**
 
-Sprint 1:
+Sprint 1: https://www.loom.com/share/fdbdc405ff9240cdbe4f1c3b2e25825b?sid=70536a73-b6dc-4057-97af-eb440df6de8d
