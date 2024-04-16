@@ -77,7 +77,7 @@ New Screen
 
 Image of my wireframe:
 
-![Image](https://github.com/Baozzz04/CodePath_Capstone/blob/main/IMG_9110.HEIC?raw=true)
+![Image](https://github.com/Baozzz04/CodePath_Capstone/blob/main/wireframe_img.jpg)
 
 **Main features**
 - User can view the app's default recipe
