@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		122B6C892BD45FE2000CAB8E /* RecipeComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122B6C882BD45FE2000CAB8E /* RecipeComposeViewController.swift */; };
 		129475D22BD449AF001208B7 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129475D12BD449AF001208B7 /* FavoritesViewController.swift */; };
 		12F70C232BD432FE00FFBEE8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12F70C222BD432FE00FFBEE8 /* DetailViewController.swift */; };
 		ED83EE9A29B05FCE007A4FC9 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED83EE9929B05FCE007A4FC9 /* Movie.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		122B6C882BD45FE2000CAB8E /* RecipeComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeComposeViewController.swift; sourceTree = "<group>"; };
 		129475D12BD449AF001208B7 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		12F70C222BD432FE00FFBEE8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		ED83EE9929B05FCE007A4FC9 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				ED88ABFF29AD9859008A6FF6 /* Info.plist */,
 				12F70C222BD432FE00FFBEE8 /* DetailViewController.swift */,
 				129475D12BD449AF001208B7 /* FavoritesViewController.swift */,
+				122B6C882BD45FE2000CAB8E /* RecipeComposeViewController.swift */,
 			);
 			path = "ios101-lab6-flix";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 				ED88ABF629AD9858008A6FF6 /* ViewController.swift in Sources */,
 				ED88ABF229AD9858008A6FF6 /* AppDelegate.swift in Sources */,
 				129475D22BD449AF001208B7 /* FavoritesViewController.swift in Sources */,
+				122B6C892BD45FE2000CAB8E /* RecipeComposeViewController.swift in Sources */,
 				ED83EE9A29B05FCE007A4FC9 /* Movie.swift in Sources */,
 				12F70C232BD432FE00FFBEE8 /* DetailViewController.swift in Sources */,
 				ED83EEA129B71218007A4FC9 /* MovieCell.swift in Sources */,

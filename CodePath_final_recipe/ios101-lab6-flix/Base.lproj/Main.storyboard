@@ -55,17 +55,15 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="All Recipes" id="xkP-qo-b4b">
-                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="Jvt-5S-8gM">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="lpz-SI-uvp">
-                                <rect key="frame" x="-37" y="-19" width="87" height="33"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                            </button>
+                        <barButtonItem key="rightBarButtonItem" image="plus" catalog="system" id="TJj-Yu-1s8">
+                            <connections>
+                                <action selector="didTapNewTaskButton:" destination="BYZ-38-t0r" id="PAR-dG-l8I"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="GeD-fs-Zv6" id="hKJ-gD-A37"/>
+                        <segue destination="uwd-7h-Jwo" kind="presentation" identifier="ComposeSegue" id="m2w-6J-241"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -133,6 +131,73 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PWg-P5-0Yp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1903" y="365"/>
+        </scene>
+        <!--New Recipe-->
+        <scene sceneID="x6k-D1-AG7">
+            <objects>
+                <viewController id="bqy-Ca-sAk" customClass="RecipeComposeViewController" customModule="ios101_lab6_flix" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kno-gH-TxU">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="8zZ-6B-UCo">
+                                <rect key="frame" x="50" y="156" width="300" height="136"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="n01-a5-doo">
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sJD-IP-VWh">
+                                        <rect key="frame" x="0.0" y="34" width="300" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Ingredients" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AXb-6g-Jap">
+                                        <rect key="frame" x="0.0" y="68" width="300" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Link" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RxJ-J7-vwe">
+                                        <rect key="frame" x="0.0" y="102" width="300" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="oQp-2g-Mdn"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="qra-Tu-RuJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="8zZ-6B-UCo" firstAttribute="top" secondItem="qra-Tu-RuJ" secondAttribute="top" constant="100" id="mPp-Vg-E9F"/>
+                            <constraint firstItem="8zZ-6B-UCo" firstAttribute="leading" secondItem="qra-Tu-RuJ" secondAttribute="leading" constant="50" id="xRE-rd-3c2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="New Recipe" id="nzc-1Y-8Cj">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="brd-4y-5qd">
+                            <connections>
+                                <action selector="didTapCancelButton:" destination="bqy-Ca-sAk" id="Avv-tl-qQn"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Done" id="yiE-Ab-8tm">
+                            <connections>
+                                <action selector="didTapDoneButton:" destination="bqy-Ca-sAk" id="S1u-7h-3yd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="ingredientsField" destination="AXb-6g-Jap" id="8LE-Ra-34o"/>
+                        <outlet property="linkField" destination="RxJ-J7-vwe" id="hQP-rE-Jb6"/>
+                        <outlet property="noteField" destination="sJD-IP-VWh" id="VXM-iC-RN6"/>
+                        <outlet property="titleField" destination="n01-a5-doo" id="PbR-Ae-eXL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oae-am-WIQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3744.2748091603053" y="364.78873239436621"/>
         </scene>
         <!--Detail View Controller-->
         <scene sceneID="YP2-6H-ve9">
@@ -223,6 +288,7 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="0UR-ik-pUC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="XhA-eu-wyf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -253,6 +319,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yzr-yO-59d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="976" y="365"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="juI-tX-y77">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uwd-7h-Jwo" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hPu-fk-Yzl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bqy-Ca-sAk" kind="relationship" relationship="rootViewController" id="G8K-vS-e4h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bRW-3e-9Ky" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2817.5572519083967" y="364.78873239436621"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

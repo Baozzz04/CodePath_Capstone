@@ -12,13 +12,13 @@ struct MovieFeed: Decodable {
 struct Movie: Codable, Equatable {
     //overview = recipe
     //ingred = ingreds
-    let title: String
-    let overview: String
-    let posterPath: String? // Path used to create a URL to fetch the poster image
+    var title: String
+    var overview: String
+    var posterPath: String? // Path used to create a URL to fetch the poster image
 
     // MARK: Additional properties for detail view
     let backdropPath: String? // Path used to create a URL to fetch the backdrop image
-    let ingred: String?
+    var ingred: String?
     let voteAverage: Double?
     let releaseDate: Date?
 
