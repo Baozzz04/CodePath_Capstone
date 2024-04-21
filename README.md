@@ -29,6 +29,7 @@ Optional Nice-to-have Stories
 - User can choose recipes based on categories.
 
 ***2. Screen Archetypes***
+
 **Home Screen**
 - User can see all recipes
 
@@ -36,7 +37,7 @@ Optional Nice-to-have Stories
 - User can add new recipes to the list
 
 **Favorite Screen**
-- User can access this to access their own recipes or their favorite ones from the default recipe.
+- User can access this to access their own recipes or their favorite ones from the default recipes.
 
 ***3. Navigation***
 **Tab Navigation (Tab to Screen)**
