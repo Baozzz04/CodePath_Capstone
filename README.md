@@ -105,9 +105,14 @@ Sprint 1: For the first sprint, I added new view controllers and coding files fo
 
 Sprint 2: For the second sprint, I finished the app (finished the home page with default recipes, finished the individual recipe page, and populate the imgView and label with data from the main View Controller, added the heart button in each recipes, and finished the favorite view controller to record the favorite dishes, finished the adding new recipe feature, with adding new fields and data, and saved the recipe in the Favorite Screen)
 
+Sprint 3: For the last sprint, I fixed all of the errors in my code, and rearranged the buttons and labels around to make sure my app looks as good as possible. All functionality is finished.
+
 **Video walkthrough**
 
 Sprint 1: https://www.loom.com/share/fdbdc405ff9240cdbe4f1c3b2e25825b?sid=70536a73-b6dc-4057-97af-eb440df6de8d
 
 Sprint 2: 
     https://www.loom.com/share/a5f4255218b64c94af8ae8f51657acdf?sid=526a815f-5ba1-4fe8-a678-d0828d3b65c1
+    
+Sprint 3:
+    https://www.loom.com/share/9e819ae9d273465a915aad28f137a00b?sid=449c63ae-004a-405c-877a-1d1d06a37326
